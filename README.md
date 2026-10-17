@@ -47,10 +47,6 @@ flowchart LR
 
 The system worked during the demo on the Raspberry Pi: users were enrolled from the web page, then recognised in front of the webcam and added to the day's attendance table.
 
-| Web interface | Attendance after a recognition |
-|---|---|
-| ![Web interface](docs/images/web-interface.jpg) | ![Attendance table](docs/images/attendance-table.jpg) |
-
 I want to be straight about the numbers: I did not measure the recognition rate or the time per recognition at the time, so I don't quote any. The specification asked for a recognition in under 2 seconds, and that is still to be measured on the Pi.
 
 While cleaning the code for this repository I found and fixed several bugs in the version from my report:
