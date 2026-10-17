@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Data created when the app runs: face images, trained model and attendance sheets.
+# These are biometric / personal data and must never be pushed.
+Attendance/
+static/faces/
+static/*.pkl
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
