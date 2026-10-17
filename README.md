@@ -21,12 +21,6 @@ So I kept the pipeline as light as possible:
 
 The price of that simplicity is accuracy and robustness to lighting, which I come back to in the limitations.
 
-## Architecture
-
-![Hardware setup](docs/images/hardware-setup.jpg)
-
-*The Raspberry Pi 3 B+ (bottom left) with the USB webcam, keyboard and mouse. The Pi's HDMI output goes through an HDMI-to-USB capture dongle, so its screen is displayed on my laptop instead of a separate monitor.*
-
 ```mermaid
 flowchart LR
     A[USB webcam] --> B[OpenCV frame]
